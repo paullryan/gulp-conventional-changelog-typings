@@ -1,8 +1,12 @@
+// Type definitions for gulp-conventional-changelog
+// Project: https://github.com/conventional-changelog/gulp-conventional-changelog
+// Definitions by: Paul Ryan <https://github.com/paullryan>
+
 declare module "gulp-conventional-changelog" {
 
   namespace changelog {
     interface ConventionalChangelog {
-      task(options?: Option): () => NodeJS.ReadWriteStream;
+      (options?: Option): NodeJS.ReadWriteStream;
     }
     interface Option {
       preset?: string,
