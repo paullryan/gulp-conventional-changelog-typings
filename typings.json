@@ -1,0 +1,12 @@
+{
+  "name": "gulp-conventional-changelog",
+  "main": "index.d.ts",
+  "homepage": "https://github.com/conventional-changelog/gulp-conventional-changelog",
+  "version": "",
+  "devDependencies": {
+    "blue-tape": "registry:npm/blue-tape#0.1.0+20160322235613"
+  },
+  "ambientDevDependencies": {
+    "node": "registry:dt/node#4.0.0+20160319033040"
+  }
+}
